@@ -119,24 +119,6 @@ header h2 {
     border-bottom: 1px solid gray;
 }
 
-aside {
-    padding: 1em;
-    background: rgb(83, 104, 138);
-    color: white;
-    margin-bottom: 1em;
-}
-
-aside h4 {
-    color: white;
-}
-
-footer {
-    border-top: 1px solid gray;
-    text-align: center;
-    font-size: .8em;
-    line-height: 4em;
-    margin-top: 1em;
-}
 
 blockquote {
     font-style: italic;
