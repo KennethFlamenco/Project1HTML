@@ -1,6 +1,7 @@
 html {
     background-image: url("../images/mulholland-background.jpeg");
     background-repeat: repeat;
+    /*makes it so the image repeats on the side all the way down the page*/
     background-size: auto;
 }
 
@@ -113,11 +114,14 @@ dialog {
 .centerImg {
     display: block;
     margin-left: auto;
+    /*centers the image in a block */
     margin-right: auto;
 }
 
 .sideBySide {
     display: flex;
     align-items: flex-start;
+    /*aligns the box with the image*/
     gap: 10px;
+    /*spaces the box away from the image*/
 }
