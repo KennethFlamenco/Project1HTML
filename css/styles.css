@@ -1,1 +1,106 @@
+html {
+    background-image: url("../images/mulholland-background.jpeg");
+    background-repeat: repeat;
+    /*makes it so the image repeats on the side all the way down the page*/
+    background-size: auto;
+}
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2.5% 2.5% 0;
+    background: white;
+    line-height: 1.8;
+}
+
+h1 {
+    font: 1.6em Verdana, Geneva, sans-serif;
+    margin-bottom: .4em;
+    color: rgb(14, 64, 145);
+}
+
+h2 {
+    font: 3.2em Georgia, "Times New Roman", Times, serif;
+    margin-bottom: .2em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.center {
+    text-align: center;
+}
+
+header h2 {
+    padding-bottom: .2em;
+    border-bottom: 1px solid gray;
+}
+
+
+blockquote {
+    font-style: italic;
+}
+
+.flowRight {
+    float: right;
+    margin-left: 10px;
+}
+
+.flowLeft {
+    float: left;
+    margin-right: 10px;
+}
+
+dialog {
+    position: static;
+    border: 2px solid #888;
+    border-radius: 8px;
+    padding: 15px;
+    background: #fdfdfd;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    /*centers the image in a block */
+    margin-right: auto;
+}
+
+.sideBySide {
+    display: flex;
+    align-items: flex-start;
+    /*aligns the box with the image*/
+    gap: 10px;
+    /*spaces the box away from the image*/
+}
