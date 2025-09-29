@@ -53,29 +53,8 @@ h3 {
 }
 
 p {
+    margin-top: 1em;
     margin-bottom: 1em;
-}
-
-a {
-    color: rgb(184, 126, 84);
-}
-
-a:hover {
-    color: rgb(120, 97, 55);
-}
-
-pre {
-    font-size: 1.4em;
-    color: white;
-    padding: .5em 1em;
-    border-left: 1em solid #A68048;
-    background: #666;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
-    width: 80%;
 }
 
 
