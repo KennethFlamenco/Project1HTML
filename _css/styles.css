@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: rgb(107, 107, 132);
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -77,38 +77,6 @@ pre {
     width: 80%;
 }
 
-pre.wrong {
-    border-left-color: red;
-}
-
-pre.correct {
-    border-left-color: green;
-}
-
-dt {
-    font-style: italic;
-    font-size: 1.2em;
-}
-
-dd {
-    margin-bottom: 1.4em;
-}
-
-table {
-    margin-top: 1em;
-}
-
-caption {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 1em;
-    text-align: left;
-}
-
-td,
-th {
-    padding: 10px;
-}
 
 .center {
     text-align: center;
@@ -132,4 +100,24 @@ blockquote {
 .flowLeft {
     float: left;
     margin-right: 10px;
+}
+
+dialog {
+    position: static;
+    border: 2px solid #888;
+    border-radius: 8px;
+    padding: 15px;
+    background: #fdfdfd;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sideBySide {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
 }
